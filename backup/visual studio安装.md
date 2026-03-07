@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link></image><lastBuildDate>Sat, 07 Mar 2026 07:25:16 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>visual studio安装</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</link><description>## 1.visual studio 安装
+## 1.visual studio 安装
 
 [b站一位up的视频教程](https://www.bilibili.com/video/BV1tRCXBBEvN/?spm_id_from=333.337.search-card.all.click)
 
@@ -11,7 +10,7 @@
 
 4. **copilot**（貌似要登陆github才有）：建议先关掉补全功能，便于自己对于程序的学习     
 
-   &gt; 点击视图里面选“解决方案资源管理器”就可以找到以下了
+   > 点击视图里面选“解决方案资源管理器”就可以找到以下了
 
 5. **源文件**：右键选择添加，然后选新建项（cpp是C++,可以自己把后缀改为c）
 
@@ -23,4 +22,4 @@ ctrl+/可以一键注释
 
 7. vs**最小的构建单位**是一个项目，但一个项目会有多个cpp文件，方法：1.注释掉之前的东西；2.移除先前文件，在vs里面不显示了，但还在文件夹中；3.新建项目
 
-后续的内容大多来自翁恺老师，[b站上的课，讲的蛮好的~](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click)。</description><guid isPermaLink="true">https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</guid><pubDate>Sat, 07 Mar 2026 07:24:51 +0000</pubDate></item></channel></rss>
+后续的内容大多来自翁恺老师，[b站上的课，讲的蛮好的~](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click)
