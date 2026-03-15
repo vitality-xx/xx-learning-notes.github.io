@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Vitality-xx's learning notes</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link><description>记录一些自己学到的东西的笔记~</description><copyright>Vitality-xx's learning notes</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/260565565?v=4&amp;size=64</url><title>avatar</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link></image><lastBuildDate>Sat, 07 Mar 2026 07:31:10 +0000</lastBuildDate><managingEditor>Vitality-xx's learning notes</managingEditor><ttl>60</ttl><webMaster>Vitality-xx's learning notes</webMaster><item><title>visual studio安装</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</link><description>## 1.visual studio 安装
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Vitality-xx's learning notes</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link><description>记录一些自己学到的东西的笔记~</description><copyright>Vitality-xx's learning notes</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/260565565?v=4&amp;size=64</url><title>avatar</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link></image><lastBuildDate>Sun, 15 Mar 2026 15:09:02 +0000</lastBuildDate><managingEditor>Vitality-xx's learning notes</managingEditor><ttl>60</ttl><webMaster>Vitality-xx's learning notes</webMaster><item><title>一个检索软件——everything 的下载</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/yi-ge-jian-suo-ruan-jian-%E2%80%94%E2%80%94everything%20-de-xia-zai.html</link><description>## **everything**——一个搜索文件的软件
+
+下载方式：
+
+- 官网下载
+
+- 利用winget下载
+
+​	按下键盘上的win+R键，输入cmd打开命令提示符，然后输入下面这行命令并回车来确认一下：
+
+```bash
+winget --version
+```
+
+如果看到了版本号，那就继续
+
+==先搜索，再安装==
+
+```bash
+winget search everything
+```
+
+执行命令后，你会看到一个表格，里面列出了匹配的软件。</description><guid isPermaLink="true">https://vitality-xx.github.io/xx-learning-notes.github.io/post/yi-ge-jian-suo-ruan-jian-%E2%80%94%E2%80%94everything%20-de-xia-zai.html</guid><pubDate>Sun, 15 Mar 2026 15:08:33 +0000</pubDate></item><item><title>visual studio安装</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</link><description>## 1.visual studio 安装
 
 [b站一位up的视频教程](https://www.bilibili.com/video/BV1tRCXBBEvN/?spm_id_from=333.337.search-card.all.click)
 
