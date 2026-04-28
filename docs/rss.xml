@@ -1,2 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Vitality-xx's learning notes</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link><description>记录一些自己学到的东西的笔记~</description><copyright>Vitality-xx's learning notes</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/260565565?v=4&amp;size=64</url><title>avatar</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:26:52 +0000</lastBuildDate><managingEditor>Vitality-xx's learning notes</managingEditor><ttl>60</ttl><webMaster>Vitality-xx's learning notes</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Vitality-xx's learning notes</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link><description>记录一些自己学到的东西的笔记~</description><copyright>Vitality-xx's learning notes</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/260565565?v=4&amp;size=64</url><title>avatar</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:50:35 +0000</lastBuildDate><managingEditor>Vitality-xx's learning notes</managingEditor><ttl>60</ttl><webMaster>Vitality-xx's learning notes</webMaster><item><title>一个检索软件——everything 的下载</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/yi-ge-jian-suo-ruan-jian-%E2%80%94%E2%80%94everything%20-de-xia-zai.html</link><description>## **everything**——一个搜索文件的软件
+
+下载方式：
+
+- 官网下载
+
+- 利用winget下载
+
+​	按下键盘上的win+R键，输入cmd打开命令提示符，然后输入下面这行命令并回车来确认一下：
+
+```bash
+winget --version
+```
+
+如果看到了版本号，那就继续
+
+==先搜索，再安装==
+
+```bash
+winget search everything
+```
+
+执行命令后，你会看到一个表格，里面列出了匹配的软件。</description><guid isPermaLink="true">https://vitality-xx.github.io/xx-learning-notes.github.io/post/yi-ge-jian-suo-ruan-jian-%E2%80%94%E2%80%94everything%20-de-xia-zai.html</guid><pubDate>Sun, 15 Mar 2026 15:08:33 +0000</pubDate></item><item><title>visual studio安装</title><link>https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</link><description>## 1.visual studio 安装
+
+[b站一位up的视频教程](https://www.bilibili.com/video/BV1tRCXBBEvN/?spm_id_from=333.337.search-card.all.click)
+
+1. **下载**：先搜索出来vs官网：[vs官网链接](https://visualstudio.microsoft.com/zh-hans/)，点击上方菜单栏的下载，下载community版本（insiders是内测版本，不下载）
+
+2. **安装**：选择要安装的组件，一般选择桌面应用和移动应用中的使用C++的桌面开发和其他工具集中的visual studio扩展开发，右边侧栏记得选上copilot选项（一般都会自动选上的）；左下角可以选择安装位置
+
+3. **项目**：安装好之后，选择创建新项目，选择空项目，输入项目名称（如first）,这个项目会是一个文件夹
+
+4. **copilot**（貌似要登陆github才有）：建议先关掉补全功能，便于自己对于程序的学习     
+
+   &gt; 点击视图里面选“解决方案资源管理器”就可以找到以下了
+
+5. **源文件**：右键选择添加，然后选新建项（cpp是C++,可以自己把后缀改为c）
+
+可以在自己的文件里面找到slnx（vs2022是sln）后缀的文件，点开就会打开vs并且是自己的一个项目了
+
+6. 修改**字体**：最上方菜单栏工具，选项，环境，其他设置中的字体和颜色（一般推荐consolas）
+
+ctrl+/可以一键注释
+
+7. vs**最小的构建单位**是一个项目，但一个项目会有多个cpp文件，方法：1.注释掉之前的东西；2.移除先前文件，在vs里面不显示了，但还在文件夹中；3.新建项目
+
+后续的内容大多来自翁恺老师，[b站上的课，讲的蛮好的~](https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click)。</description><guid isPermaLink="true">https://vitality-xx.github.io/xx-learning-notes.github.io/post/visual%20studio-an-zhuang.html</guid><pubDate>Sat, 07 Mar 2026 07:24:51 +0000</pubDate></item></channel></rss>
